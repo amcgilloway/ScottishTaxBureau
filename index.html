@@ -737,21 +737,22 @@
             <div class="row">
               <div class="col-md-5 info">
                 <i class="ion-ios-location-outline"></i>
-                <p>A108 Adam Street, NY 535022</p>
+                <p>96 Hope Street Glasgow G2 6PH</p>
               </div>
               <div class="col-md-4 info">
                 <i class="ion-ios-email-outline"></i>
-                <p>info@example.com</p>
+                <p>info@scottishtaxbureau.com</p>
               </div>
               <div class="col-md-3 info">
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+1 5589 55488 55</p>
+                <p>0141 237 4060</p>
               </div>
             </div>
 
             <div class="form">
 
               <form action="" method="post" role="form" class="contactForm">
+                <input type="hidden" name="_next" value="http://scottishtaxbureau.com/confirm.html"/>
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -761,15 +762,35 @@
                     <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                     <div class="validation"></div>
                   </div>
+                  <div class="form-group col-lg-6">
+                    <input type="phone" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="phone" data-msg="Please enter a valid phone number" />
+                    <div class="validation"></div>
+                  </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
+                  <select id="combo_4" name="Options">
+              <option value="Self Assessment">Self Assessment</option>
+              <option value="Self Employed">Self Employed</option>
+              <option value="Partnerships">Partnerships</option>
+              <option value="Company Formations">Company Formations</option>
+              <option value="Business Accounts">Business Accounts</option>
+              <option value="Corporation tax">Corporaton Tax</option>
+              <option value="PAYE">PAYE</option>
+              <option value="Payroll">Payroll</option>
+              <option value="VAT">VAT</option>
+              <option value="Bookkeeping">Bookkeeping</option>
+              <option value="CIS">CIS</option>
+              <option value="MGD">MGD</option>
+              <option value="Inheritance Tax">Inheritance Tax</option>
+              <option value="General">General Enquiry</option>
+            </select>
                 </div>
                 <div class="form-group">
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
+                <div class="g-recaptcha" data-sitekey="6LfBhtcUAAAAALPsNFOwcNVKc00UCfFzvDMAsrMG"></div>
+                <br>
                 <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
               </form>
             </div>
@@ -806,7 +827,7 @@
             </p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <h3>London Tax Bureau</h3>
             <p>
@@ -817,7 +838,7 @@
 
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-2 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
               94 Hope Street <br>
@@ -830,8 +851,6 @@
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="http://facebook.com/ScottishTaxBureau" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
               <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
 
